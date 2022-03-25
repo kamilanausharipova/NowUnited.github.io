@@ -68,44 +68,44 @@ a{
 @media screen and (max-width: 600px){
   .svg-wrapper {
     position: fixed;
-    top: 10%;
+    top: 7%;
     width: 320px;
-    /* left: 50%; */
-    justify-content: center;
+    left: 32%;
   }
   img{
     position: absolute;
-    /* left: 0; */
-    width: 100%;
-    height: auto;
+    left: 0;
+    width: auto;
+    height: 100%;
     top: 23%;
     justify-content: center;
   }
   h2{
     position: absolute;
-    left: 110%;
+    left: 10%;
     top: 124%;
-    font-size: 32px;
+    font-size: 40px;
     color: black;
     font-family: 'Poppins Regular';
+    text-align: center;
   }
   h3{
     color: #838588;
     font-family: 'Poppins Thin';
-    font-size: 16px;
+    font-size: 25px;
     position: absolute;
-    top: 140%;
+    top: 150%;
     left: 10%;
   }
   button{
     position: absolute;
-    top: 126%;
+    top: 226%;
     left: 24%;
     background: none;
     border-color:black;
     width: 175px;
     height: 50px;
-    font-size: 20px;
+    font-size: 30px;
     border-style: dashed;
   }
 }
