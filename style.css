@@ -68,22 +68,22 @@ a{
 @media screen and (max-width: 600px){
   .svg-wrapper {
     position: fixed;
-    top: 7%;
+    top: 13%;
     width: 320px;
-    left: 32%;
+    left: 4%;
   }
   img{
     position: absolute;
     left: 0;
-    width: auto;
-    height: 100%;
-    top: 23%;
+    width: 100%;
+    height: auto;
+    top: 21%;
     justify-content: center;
   }
   h2{
     position: absolute;
-    left: 10%;
-    top: 124%;
+    left: 0;
+    top: 80%;
     font-size: 40px;
     color: black;
     font-family: 'Poppins Regular';
@@ -92,14 +92,14 @@ a{
   h3{
     color: #838588;
     font-family: 'Poppins Thin';
-    font-size: 25px;
+    font-size: 18px;
     position: absolute;
-    top: 150%;
+    top: 115%;
     left: 10%;
   }
   button{
     position: absolute;
-    top: 226%;
+    top: 180%;
     left: 24%;
     background: none;
     border-color:black;
