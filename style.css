@@ -70,7 +70,7 @@ a{
     position: fixed;
     top: 13%;
     width: 320px;
-    left: 4%;
+    left: 8%;
   }
   img{
     position: absolute;
@@ -99,8 +99,8 @@ a{
   }
   button{
     position: absolute;
-    top: 180%;
-    left: 24%;
+    top: 170%;
+    left: 26%;
     background: none;
     border-color:black;
     width: 175px;
