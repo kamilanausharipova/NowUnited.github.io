@@ -1,0 +1,424 @@
+.svg-wrapper {
+  position: fixed;
+  top: 10%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Poppins Bold';
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  top: -55px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+.topnav {
+  position: fixed;
+  left: 60%;
+  top: 5%;
+  background-color: white;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins Regular';
+}
+
+.topnav a:hover {
+  color: #19f6e8;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+.iyb{
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.birth{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.badnan{
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.badna{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.futurem{
+  position: absolute;
+  top: 20%;
+  left: 64%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.future{
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+
+.wavey{
+  position: absolute;
+  top: 55%;
+  left: 23%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.wave{
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.whow{
+  position: absolute;
+  top: 55%;
+  left: 39%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.who{
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.nan{
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.na{
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+.alld{
+  position: absolute;
+  top: 90%;
+  left: 26%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.all{
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.sumi{
+  position: absolute;
+  top: 90%;
+  left: 41.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.sum{
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.para{
+  position: absolute;
+  top: 90%;
+  left: 65.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.pa{
+  position: absolute;
+  top: 100%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+
+.comet{
+  position: absolute;
+  top: 125%;
+  left: 23%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.come{
+  position: absolute;
+  top: 135%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.howw{
+  position: absolute;
+  top: 125%;
+  left: 44%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.how{
+  position: absolute;
+  top: 135%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.af{
+  position: absolute;
+  top: 125%;
+  left: 61%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.afr{
+  position: absolute;
+  top: 135%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+.onel{
+  position: absolute;
+  top: 160%;
+  left: 25%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.one{
+  position: absolute;
+  top: 170%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.craz{
+  position: absolute;
+  top: 160%;
+  left: 40.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.crazy{
+  position: absolute;
+  top: 170%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.wh{
+  position: absolute;
+  top: 160%;
+  left: 59.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.what{
+  position: absolute;
+  top: 170%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+.howw{
+  position: absolute;
+  top: 125%;
+  left: 44%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.how{
+  position: absolute;
+  top: 135%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.af{
+  position: absolute;
+  top: 125%;
+  left: 61%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.afr{
+  position: absolute;
+  top: 135%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+.onel{
+  position: absolute;
+  top: 160%;
+  left: 25%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.one{
+  position: absolute;
+  top: 170%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.craz{
+  position: absolute;
+  top: 160%;
+  left: 40.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.crazy{
+  position: absolute;
+  top: 170%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.wh{
+  position: absolute;
+  top: 160%;
+  left: 59.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.what{
+  position: absolute;
+  top: 170%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+.beau{
+  position: absolute;
+  top: 195%;
+  left: 24%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.be{
+  position: absolute;
+  top: 205%;
+  left: 20%;
+  width: 250px;
+  height: 180px;
+}
+.lom{
+  position: absolute;
+  top: 195%;
+  left: 44%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.lean{
+  position: absolute;
+  top: 205%;
+  left: 40%;
+  width: 250px;
+  height: 180px;
+}
+.turni{
+  position: absolute;
+  top: 195%;
+  left: 64.5%;
+  color: black;
+  font-family: 'Poppins Bold';
+  font-size: 20px;
+}
+.turn{
+  position: absolute;
+  top: 205%;
+  left: 60%;
+  width: 250px;
+  height: 180px;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
